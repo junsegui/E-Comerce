@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chewy">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 
@@ -37,31 +45,112 @@
         </div>
     </section>
     <section class="about">
-        <div class="containerA">
-            <div class="p1">
-                <p>about</p>
-                <div class="im">
-                    <img src="./assets/Screenshot 2022-07-16 004655.png" alt="">
+            <div class="containerA" >
+                <div class="p1">
+                    <p>about</p>
+                    <div class="im">
+                        <img src="./assets/Screenshot 2022-07-16 004655.png" alt="">
+                    </div>
                 </div>
-            </div>
-            <div class="p2">
-                <p>Este proyecto llamado kos fue creado para traer a mas gente a la simpleza y minimalismo.</p>
-                <div class="obj">
-                    <p>objetivos:</p>
-                    <ul>
-                        <li><i class="fa-solid fa-angle-right"></i>Ayudar a generar ambientes limpios y elegantes</li>
-                        <li><i class="fa-solid fa-angle-right"></i>Transmitir nuestra idea de lo que es ka simpleza</li>
-                        <li><i class="fa-solid fa-angle-right"></i>Permitirte con poco crear mucho</li>
-                    </ul>
+                <div class="p2">
+                    <p>Este proyecto llamado kos fue creado para traer a mas gente a la simpleza y minimalismo.</p>
+                    <div class="obj">
+                        <p>objetivos:</p>
+                        <ul>
+                            <li><i class="fa-solid fa-angle-right"></i>Ayudar a generar ambientes limpios y elegantes</li>
+                            <li><i class="fa-solid fa-angle-right"></i>Transmitir nuestra idea de lo que es ka simpleza</li>
+                            <li><i class="fa-solid fa-angle-right"></i>Permitirte con poco crear mucho</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     
+    <section class="new">
+        <h1 class="text-center mx-auto" id="new-arrivals">&nbsp; &nbsp;new arrival &nbsp;&nbsp;</h1>
+        <div id="new-items" style="width:100%;">
+            <div class="d-inline-block float-left" id="product">
+                <div id="new-arrival-image-1"></div>
+                <div id="product-description">
+                    <div id="product-description-top">
+                        <div class="d-inline-block float-left">
+                            <p class="text-center">Item Name One</p>
+                        </div>
+                        <div class="d-inline-block float-right" id="front-page-heart" style="margin-top:0px;"></div>
+                    </div>
+                    <div id="product-description-bottom">
+                        <div class="d-inline-block float-left">
+                            <p id="front-page-price">$15.99</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="d-inline-block float-left" id="product">
+                <div id="new-arrival-image-2"></div>
+                <div id="product-description">
+                    <div id="product-description-top">
+                        <div class="d-inline-block float-left">
+                            <p class="text-center">Item Name Two</p>
+                        </div>
+                        <div class="d-inline-block float-right" id="front-page-heart" style="margin-top:0px;"></div>
+                    </div>
+                    <div id="product-description-bottom">
+                        <div class="d-inline-block float-left">
+                            <p id="front-page-price">$5.99</p>
+                        </div>
+ 
+                    </div>
+                </div>
+            </div>
+            <div class="d-inline-block float-left" id="product">
+                <div id="new-arrival-image-3"></div>
+                <div id="product-description">
+                    <div id="product-description-top">
+                        <div class="d-inline-block float-left">
+                            <p class="text-center">Item Name Three</p>
+                        </div>
+                        <div class="d-inline-block float-right" id="front-page-heart" style="margin-top:0px;"></div>
+                    </div>
+                    <div id="product-description-bottom">
+                        <div class="d-inline-block float-left">
+                            <p id="front-page-price">$20</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="d-inline-block float-left" id="product">
+                <div id="new-arrival-image-4"></div>
+                <div id="product-description">
+                    <div id="product-description-top">
+                        <div class="d-inline-block float-left">
+                            <p class="text-center">Item Name Four</p>
+                        </div>
+                        <div class="d-inline-block float-right" id="front-page-heart" style="margin-top:0px;"></div>
+                    </div>
+                    <div id="product-description-bottom">
+                        <div class="d-inline-block float-left">
+                            <p id="front-page-price">$19.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+       
+        
+    </section>
+    
+    
     
 
-    
+
 <script src="https://kit.fontawesome.com/9e2f212f63.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    AOS.init();
+</script>
+<script src="./index.js"></script>
 </body>
 </html>
