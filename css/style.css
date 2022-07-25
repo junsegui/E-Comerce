@@ -813,6 +813,7 @@ a {
   height: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 40%;
 }
 .container2 .cont2 .jarrones {
   height: 50%;
