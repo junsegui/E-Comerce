@@ -759,6 +759,7 @@ a {
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
+  margin-bottom: 10%;
 }
 
 .all p {
@@ -813,7 +814,6 @@ a {
   height: 100%;
   display: flex;
   flex-direction: column;
-  margin-bottom: 40%;
 }
 .container2 .cont2 .jarrones {
   height: 50%;
