@@ -806,7 +806,7 @@ a {
   font-size: 3.5rem;
   margin-left: 4%;
   position: absolute;
-  top: 325%;
+  top: 336%;
 }
 .container2 .cont2 {
   width: 50%;
@@ -818,6 +818,7 @@ a {
   height: 50%;
   width: 100%;
   margin-top: 5.3%;
+  margin-left: 5%;
 }
 .container2 .cont2 .jarrones .jarron {
   width: 100%;
@@ -827,9 +828,9 @@ a {
 }
 .container2 .cont2 .jarrones .jarron h2 {
   position: absolute;
-  top: 297%;
+  top: 307%;
   font-size: 3rem;
-  left: 51%;
+  left: 54%;
 }
 .container2 .cont2 .cuadernos {
   height: 50%;
@@ -840,11 +841,12 @@ a {
   height: 85.2%;
   background-image: url(/assets/libretas/libretaOficina.webp);
   background-repeat: no-repeat;
+  background-position: 10% 81%;
 }
 .container2 .cont2 .cuadernos .cuaderno h2 {
   position: absolute;
-  top: 308%;
-  left: 51%;
+  top: 318%;
+  left: 54%;
   font-size: 3rem;
 }
 
