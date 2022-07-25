@@ -327,7 +327,7 @@ nav img {
 
 .new {
   width: 99vw;
-  height: 60vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
@@ -838,7 +838,7 @@ a {
 .container2 .cont2 .cuadernos .cuaderno {
   width: 100%;
   height: 85.2%;
-  background-image: url(/assets/libretas/libretaClasica.jpg);
+  background-image: url(/assets/libretas/libretaOficina.webp);
   background-repeat: no-repeat;
 }
 .container2 .cont2 .cuadernos .cuaderno h2 {
