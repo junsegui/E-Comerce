@@ -761,11 +761,11 @@ a {
         background-size: 80%;
         background-repeat: no-repeat;
         background-position: 10% 81%;
+        display: flex;
+        justify-content: flex-start;
         h2 {
           font-size: 3.5rem;
           margin-left: 4%;
-          position: absolute;
-          top: 336%;
         }
       }
     }
@@ -785,11 +785,11 @@ a {
         height: 100%;
         background-image: url(/assets/jarrones/jarronNegro.jpg);
         background-repeat: no-repeat;
+        display: flex;
+        justify-content: flex-start;
         h2 {
-          position: absolute;
-          top: 307%;
           font-size: 3rem;
-          left: 54%;
+          margin-left: 1%;
         }
       }
     }
@@ -802,13 +802,12 @@ a {
         background-image: url(/assets/libretas/libretaOficina.webp);
         background-repeat: no-repeat;
         background-position: 10% 81%;
+        display: flex;
+        justify-content: flex-start;
 
         h2 {
-          position: absolute;
-          top: 318%;
-          left: 54%;
-
           font-size: 3rem;
+          margin-left: 6%;
         }
       }
     }
