@@ -813,3 +813,52 @@ a {
     }
   }
 }
+footer {
+  height: 50vh;
+  width: 99vw;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  span {
+    width: 90%;
+    border-top: 4px solid #373737;
+    margin-left: 5%;
+  }
+  .conta {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    .nav {
+      width: 100%;
+      display: flex;
+
+      .navigate {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 1%;
+
+        .quick {
+          width: 33%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          margin-top: 5%;
+          ul {
+            list-style: none;
+            .tittle {
+              font-size: 3rem;
+              font-weight: 700;
+            }
+            li {
+              font-size: 2.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

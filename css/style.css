@@ -850,4 +850,51 @@ a {
   margin-left: 6%;
 }
 
+footer {
+  height: 50vh;
+  width: 99vw;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer span {
+  width: 90%;
+  border-top: 4px solid #373737;
+  margin-left: 5%;
+}
+footer .conta {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+footer .conta .nav {
+  width: 100%;
+  display: flex;
+}
+footer .conta .nav .navigate {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1%;
+}
+footer .conta .nav .navigate .quick {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+footer .conta .nav .navigate .quick ul {
+  list-style: none;
+}
+footer .conta .nav .navigate .quick ul .tittle {
+  font-size: 3rem;
+  font-weight: 700;
+}
+footer .conta .nav .navigate .quick ul li {
+  font-size: 2.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
